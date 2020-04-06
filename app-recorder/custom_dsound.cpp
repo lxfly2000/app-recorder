@@ -89,6 +89,7 @@ public:
 	}
 	void Release()
 	{
+		Stop();
 		if (fWaveOut)
 			FCLOSE(fWaveOut);
 	}
